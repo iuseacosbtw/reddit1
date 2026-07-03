@@ -64,7 +64,7 @@ ShellRoot {
 		ScreencopyView {
 			anchors.fill: parent
 			live: true
-			captureSource: Hyprland?.focusedMonitor??null
+			captureSource: Hyprland?.focusedMonitor??null // This is what requires a QtObject
 		}
 	}
 }
